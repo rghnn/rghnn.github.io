@@ -1,5 +1,5 @@
 ---
-title: PAGE TITLE HERE
+title: life as an endurance athlete
 layout: template
 filename: cycling.md
 --- 
