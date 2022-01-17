@@ -1,3 +1,9 @@
+---
+title: PAGE TITLE HERE
+layout: template
+filename: NAME OF THIS .md FILE HERE
+--- 
+
 # Rozhina Ghanavi
 
 - I am a scientist, machine learning researcher, and cyclist.<br/> 
