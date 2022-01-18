@@ -6,7 +6,7 @@ filename: index.md
 
 # Rozhina Ghanavi
 
-- I am a scientist, machine learning researcher, and CCyclist.<br/> 
+- I am a scientist, machine learning researcher, and Cyclist.<br/> 
 - I have broad science interets, Maths, statistics, biology, and recently social sciences. I have done research works in generative models, natural language processing (NLP), MCMC and sampling methods, reinforcement learning. In another life I was working on next generation of telecommunication approaches (5G at the time). <br/>
 - Not all of my research works are published but the few of them that are published can be found here at my [scholar page](https://scholar.google.ca/citations?user=zbrHCycAAAAJ&hl=en)<br/>
 - Since May 2021 I joined [Cohere](https://cohere.ai/) as a machine learning researcher where I train large representational language models.<br/> 
