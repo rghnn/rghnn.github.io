@@ -1,5 +1,3 @@
-# rghnn.github.io
-
 # Rozhina Ghanavi
 
 - I am a scientist, machine learning researcher, and cyclist.<br/> 
