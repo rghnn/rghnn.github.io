@@ -1,9 +1,3 @@
----
-title: Rozhina Ghanavi
-layout: jekyll-theme-midnight
-filename: index.md
---- 
-
 # Rozhina Ghanavi
 
 - I am a scientist, machine learning researcher, and Cyclist.<br/> 
