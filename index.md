@@ -1,10 +1,3 @@
-<a href={{ index.md }}>{{ Rozhina Ghanavi}}</a>
-
-<a href={{ cycling.md }}>{{ life as an endurance athlete}}</a>
-
-
-<a href={{ minority.md }}>{{ Minority in ML project}}</a>
-
 ---
 title: Rozhina Ghanavi
 layout: jekyll-theme-midnight
