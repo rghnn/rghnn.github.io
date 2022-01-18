@@ -1,6 +1,6 @@
 ---
 title: Rozhina Ghanavi
-layout: template
+layout: jekyll-theme-midnight
 filename: index.md
 --- 
 
