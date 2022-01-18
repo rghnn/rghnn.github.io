@@ -1,6 +1,6 @@
 ---
 title: life as an endurance athlete
-layout: template
+layout: jekyll-theme-midnight
 filename: cycling.md
 --- 
 
