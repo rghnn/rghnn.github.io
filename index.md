@@ -1,5 +1,5 @@
 ---
-title: Rozhina Ghanavi
+title: Rozhina
 layout: jekyll-theme-midnight
 filename: index.md
 --- 
