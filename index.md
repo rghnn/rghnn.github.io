@@ -1,4 +1,3 @@
-<img src=turquoise-rozhina.png width=10% height=10%> 
 
 # Rozhina Ghanavi 
 
