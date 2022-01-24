@@ -1,5 +1,5 @@
 ---
-title: Rozhina
+title: Resume
 layout: jekyll-theme-midnight
 filename: index.md
 --- 
