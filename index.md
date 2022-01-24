@@ -1,4 +1,6 @@
-# Rozhina Ghanavi
+<img src=turquoise-rozhina.png width=10% height=10%> 
+
+# Rozhina Ghanavi 
 
 - I am a scientist, machine learning researcher, and Cyclist.<br/> 
 - I have broad science interets, Maths, statistics, biology, and recently social sciences. I have done research works in generative models, natural language processing (NLP), MCMC and sampling methods, reinforcement learning. In another life I was working on next generation of telecommunication approaches (5G at the time). <br/>
