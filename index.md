@@ -26,7 +26,7 @@
 
 ### Social Project
 #### Minority in ML
-I identify as women and aro/ace. Being an intersection of these minorities brought a lot of challenges, lonely, and difficult times. I had the advantage of finding support lifting me during hard times. However, I acknowledge that many might not have access to all the support I had during my life. That is why I have decided to start "minority in ML project". The follwoing is from my [twitter post](https://twitter.com/_ghnn_/status/1481716036508467201?s=20). Please contribute if you can:<br/>
+I identify as a cisgender women. It took a while but I am a proud member of aro and ace community. Being an intersection of these minorities brought a lot of challenges, lonely, and difficult times. I had the advantage of finding support lifting me during hard times. However, I acknowledge that many might not have access to all the support I had during my life. That is why I have decided to start "minority in ML project". The follwoing is from my [twitter post](https://twitter.com/_ghnn_/status/1481716036508467201?s=20). Please contribute if you can:<br/>
 "They say artists create the art they wish it existed."
 I am no artist but for a while I wish to see stories from minority groups in ML all gathered in one place. Why? Data! I wish for people and myself to read them see where are we going wrong. How can we grow and get better? How can we build more inclusive communities. I wish for younger kids having a hard time seeing "this hardship whatever it is shall pass". I had this social project in mind for a while. I finally got the courage to start it come here and ask for your stories!
 If you see yourself as a minority in ML I ask you to please write your stories and send them to the email I opened for this reason:
