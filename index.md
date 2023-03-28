@@ -36,7 +36,7 @@ filename: index.md
 
 ### Social Project
 #### Minority in ML
-I proudly identify as a cisgender woman and a member of the ace community. Although it was a journey, I've come to embrace this intersectionality despite its many challenges and lonely moments. Fortunately, I was fortunate enough to find supportive individuals who helped me through tough times. However, I recognize that not everyone has access to the same level of support. This is why my life's mission is to help those who come after me. If you're hosting a workshop for women and queer individuals in science, please don't hesitate to reach out. I'd love to offer my support and contribute to the success of your event.<\br>
+I proudly identify as a cisgender woman and a member of the ace community. Although it was a journey, I've come to embrace this intersectionality despite its many challenges and lonely moments. I was fortunate enough to find supportive individuals who helped me through tough times. However, I recognize that not everyone has access to the same level of support. This is why my life's mission is to help those who come after me. If you're hosting a workshop for women and queer individuals in science, please don't hesitate to reach out. I'd love to offer my support and contribute to the success of your event.<\br>
 
 As an attempt to empower younger generation who are facing similar challenges, I have decided to start "minority in ML project". The follwoing is from my [twitter post](https://twitter.com/_ghnn_/status/1481716036508467201?s=20). Please contribute if you can:<br/>
 "They say artists create the art they wish it existed."
