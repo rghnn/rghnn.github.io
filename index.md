@@ -9,6 +9,8 @@ filename: index.md
 
 - I am a scientist, machine learning researcher, and triathlete.<br/> 
 - I have broad science interets, machine learning, maths, statistics, economics, marketing, and medical sciences. I have done research works in generative models, natural language processing (NLP), MCMC and sampling methods, reinforcement learning. In another life I was working on next generation of telecommunication approaches (5G at the time). <br/>
+- I am interested in impactful research and projects. <br/>
+- If you have similar interests and have a project that I can help with or collaborate on do not hesitate to contact me via email or DM on [Twitter](https://twitter.com/_ghnn_). (rozhina dot ghanavi at rotman dot utoronto dot ca). <br/>
 - Not all of my research works are published but the few of them that are published can be found here at my [scholar page](https://scholar.google.ca/citations?user=zbrHCycAAAAJ&hl=en)<br/>
 - I am a researcher at [TDMDAL](https://www.rotman.utoronto.ca/FacultyAndResearch/EducationCentres/TDMDAL), Finhub, and [Rotman school of Management](https://www.rotman.utoronto.ca/).
 - I spent some time at [Cohere](https://cohere.ai/) as a machine learning researcher where I train large representational language models.<br/> 
