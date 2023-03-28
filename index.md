@@ -8,7 +8,7 @@ filename: index.md
 
 
 - I am a scientist, machine learning researcher, and triathlete.<br/> 
-- I have broad science interets, Maths, statistics, economics, marketing, and recently social sciences. I have done research works in generative models, natural language processing (NLP), MCMC and sampling methods, reinforcement learning. In another life I was working on next generation of telecommunication approaches (5G at the time). <br/>
+- I have broad science interets, machine learning, maths, statistics, economics, marketing, and medical sciences. I have done research works in generative models, natural language processing (NLP), MCMC and sampling methods, reinforcement learning. In another life I was working on next generation of telecommunication approaches (5G at the time). <br/>
 - Not all of my research works are published but the few of them that are published can be found here at my [scholar page](https://scholar.google.ca/citations?user=zbrHCycAAAAJ&hl=en)<br/>
 - I am a researcher at [TDMDAL](https://www.rotman.utoronto.ca/FacultyAndResearch/EducationCentres/TDMDAL), Finhub, and [Rotman school of Management](https://www.rotman.utoronto.ca/).
 - I spent some time at [Cohere](https://cohere.ai/) as a machine learning researcher where I train large representational language models.<br/> 
@@ -41,7 +41,5 @@ If you see yourself as a minority in ML I ask you to please write your stories a
 minorityinml@gmail.com . I am aiming to get about 20 stories. Put all of them together, make them a longer version and publish it or make it a long personal blog post. Depending on how the story teller feels i will give them credit or keep them anonymous.
 Please specify if you want to remain anonymous. In exchange for each story I recieve (until I reach 20 stories) I will donate small amount to a charity.
 
-### Life as an amateur athlete
-Being an athlete has always been part of my journey. I have played quite a few sports competitively and the most recent one is cycling. I am a road cyclist with the University of Toronto Road Racing (UTRR) club.
 
 
