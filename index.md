@@ -12,7 +12,7 @@ filename: index.md
 - Not all of my research works are published but the few of them that are published can be found here at my [scholar page](https://scholar.google.ca/citations?user=zbrHCycAAAAJ&hl=en)<br/>
 - I am a researcher at [TDMDAL](https://www.rotman.utoronto.ca/FacultyAndResearch/EducationCentres/TDMDAL), Finhub, and [Rotman school of Management](https://www.rotman.utoronto.ca/).
 - I spent some time at [Cohere](https://cohere.ai/) as a machine learning researcher where I train large representational language models.<br/> 
-- I am a cyclist at UTRR (university of Toronto road racing). In another world I was a track cyclist! <br/> 
+- I am a triathlete for [Alba Athletic](https://albaathletic.com/) and I was a cyclist for UTRR (university of Toronto road racing). <br/> 
 - I got my Masters from the University of Toronto in 2021 where I was advised by Professor [Ben Liang](https://www.comm.utoronto.ca/~liang/). I did research under supervision of [Alireza Makhzani](http://www.alireza.ai/) at [Vector Institute](https://vectorinstitute.ai/).<br/>
 
 ### Social Media
@@ -25,9 +25,10 @@ filename: index.md
 
 ### Professional Experience
 - Present
-  - Machine Learning Researcher at [Cohere](https://cohere.ai/)
+  - Researcher at [TDMDAL](https://www.rotman.utoronto.ca/FacultyAndResearch/EducationCentres/TDMDAL), Finhub, and [Rotman school of Management](https://www.rotman.utoronto.ca/)
 
 - Past
+  - Machine Learning Researcher at [Cohere](https://cohere.ai/)
   - Machine Learning Research Associate at [Vector Institute](https://vectorinstitute.ai/) working with [Alireza Makhzani](http://www.alireza.ai/)
   - Research Intern	at Carleton University
 
