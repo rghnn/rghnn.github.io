@@ -8,8 +8,8 @@ filename: index.md
 
 
 - I am a scientist! A quantitative one, I like to use machine learning tools to understand the world or vice versa!<br/> 
-- I have broad science interests and have spent some time exploring them. Now, I am passionate about quantitative marketing, the economics of AI, and using machine learning, maths, and statistics tools to solve problems in social sciences. <br/>
-- My most recent research focuses on the Economics of AI and how to use Machine Learning models for better goods for humans. I work with brilliant professors and researchers like [Avi Goldfarb](https://discover.research.utoronto.ca/7532-avi-goldfarb) and [Ryan Webb](http://ryan-webb.com/). <br/>
+- I have broad science interests and have spent some time exploring them. Now, I am passionate about the Economics of AI, quantitative Marketing, using machine learning, maths, and statistics tools to solve problems in social sciences. <br/>
+- My most recent research focuses on the Economics of AI and how to use Machine Learning models for better goods for humans. I work with brilliant professors and researchers like [Avi Goldfarb](https://www.avigoldfarb.com/) and [Ryan Webb](http://ryan-webb.com/). <br/>
 - I have done research works in generative models, natural language processing (NLP), MCMC and sampling methods, and reinforcement learning. In another life, I was working on the next generation of telecommunication approaches (5G at the time). <br/>
 - I am interested in impactful research and projects. <br/>
 - If you have similar interests and have a project that I can help with or collaborate on, do not hesitate to contact me via email or DM on [Twitter](https://twitter.com/_ghnn_). (rozhina dot ghanavi at rotman dot utoronto dot ca). <br/>
