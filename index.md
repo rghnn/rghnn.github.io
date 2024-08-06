@@ -7,8 +7,9 @@ filename: index.md
 # Rozhina Ghanavi
 
 
-- I am a scientist! A quantitative one, I like to use machine learning tools to understand the world or vice versa!<br/> 
-- I have broad science interests and have spent some time exploring them. Now, I am passionate about the Economics of AI, quantitative Marketing, using machine learning, maths, and statistics tools to solve problems in social sciences. <br/>
+- I am a PhD student at MIT and MIT Sloan focusing on the Economics of AI.
+- I like to call myself a scientist! A quantitative one, I like to use machine learning tools to understand the world or vice versa!<br/> 
+- I have broad science interests and have spent some time exploring them. Now, I am passionate about the Economics of AI and quantitative Marketing, using machine learning, maths, and statistics tools to solve problems in social sciences. <br/>
 - My most recent research focuses on the Economics of AI and how to use Machine Learning models for better goods for humans. I work with brilliant professors and researchers like [Avi Goldfarb](https://www.avigoldfarb.com/) and [Ryan Webb](http://ryan-webb.com/). <br/>
 - I have done research works in generative models, natural language processing (NLP), MCMC and sampling methods, and reinforcement learning. In another life, I was working on the next generation of telecommunication approaches (5G at the time). <br/>
 - I am interested in impactful research and projects. <br/>
@@ -25,14 +26,13 @@ filename: index.md
 - [twitter](https://twitter.com/_ghnn_)
 
 ### Education 
+- PhD, Massachusetts Institute of Technology (MIT)
 - Master of Sciences, University of Toronto
 - Bachelor of Sciences, University of Tehran 
 
 ### Professional Experience
-- Present
-  - Researcher at [TDMDAL](https://www.rotman.utoronto.ca/FacultyAndResearch/EducationCentres/TDMDAL), Finhub, and [Rotman school of Management](https://www.rotman.utoronto.ca/)
-
 - Past
+  - Researcher at [TDMDAL](https://www.rotman.utoronto.ca/FacultyAndResearch/EducationCentres/TDMDAL), Finhub, and [Rotman school of Management](https://www.rotman.utoronto.ca/)
   - Machine Learning Researcher at [Cohere](https://cohere.ai/)
   - Machine Learning Research Associate at [Vector Institute](https://vectorinstitute.ai/) working with [Alireza Makhzani](http://www.alireza.ai/)
   - Research Intern	at Carleton University
