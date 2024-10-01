@@ -7,7 +7,8 @@ filename: index.md
 # Rozhina Ghanavi
 
 
-- I am a PhD student at MIT and MIT Sloan focusing on the Economics of AI.<br/> 
+- I am a PhD student at MIT and MIT Sloan focusing on the Economics of AI.<br/>
+- I am an MIT Presidential Fellow 2024.<br/> 
 - I like to call myself a scientist! A quantitative one, I like to use machine learning tools to understand the world or vice versa!<br/> 
 - I have broad science interests and have spent some time exploring them. Now, I am passionate about the Economics of AI and quantitative Marketing, using machine learning, maths, and statistics tools to solve problems in social sciences. <br/>
 - My most recent research focuses on the Economics of AI and how to use Machine Learning models for better goods for humans. I work with brilliant professors and researchers like [Avi Goldfarb](https://www.avigoldfarb.com/) and [Ryan Webb](http://ryan-webb.com/). <br/> We focus on how to use uncertainty to improve AI adoption in home-sharing platforms.
