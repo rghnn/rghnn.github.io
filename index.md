@@ -7,11 +7,11 @@ filename: index.md
 # Rozhina Ghanavi
 
 
-- I am a PhD student at MIT and MIT Sloan focusing on the Economics of AI.<br/>
-- I am an MIT Presidential Fellow 2024.<br/> 
+- I am a PhD student at MIT and MIT Sloan.<br/>
+- My most recent research focuses on the Economics of Privacy, Healthcare, and Education.
+- I was an MIT Presidential Fellow 2024.<br/> 
 - I like to call myself a scientist! A quantitative one<br/> 
 - I have broad science interests and have spent some time exploring them. Now, I am passionate about Industrial Organization, the Economics of privacy, education, health, AI and quantitative Marketing. I like using structural models, machine learning, maths, and statistics tools to solve problems in social sciences. <br/>
-- My most recent research focuses on the Economics of Privacy, Healthcare, and Education.
 - At MIT, I am fortunate to be working on so many exciting questions with [Catherine Tucker](https://mitmgmtfaculty.mit.edu/cetucker/) 
 - Before my PhD, I spent some time at Rotman School of Management, University of Toronto, working with brilliant professors and researchers like [Avi Goldfarb](https://www.avigoldfarb.com/) and [Ryan Webb](http://ryan-webb.com/). <br/> We focus on how to use uncertainty to improve AI adoption in home-sharing platforms.
 - I have done research works in generative models, natural language processing (NLP), MCMC and sampling methods, and reinforcement learning. In another life, I was working on the next generation of telecommunication approaches (5G at the time). <br/>
