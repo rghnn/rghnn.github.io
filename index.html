@@ -1,85 +1,379 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rozhina Ghanavi, PhD student at MIT Sloan working on economics of privacy, AI, education, health, and quantitative marketing.">
+  <title>Rozhina Ghanavi</title>
+  <style>
+    :root {
+      --ink: #202124;
+      --muted: #5f6368;
+      --line: #dfe3e8;
+      --link: #1f5f8b;
+      --link-hover: #123f5c;
+      --paper: #ffffff;
+      --wash: #f6f8fa;
+      --accent: #b84a3a;
+    }
 
-    <title>OB Peoples</title>
+    * {
+      box-sizing: border-box;
+    }
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,600,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/styles.css">
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      line-height: 1.58;
+    }
 
-    <!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
 
+    a:hover,
+    a:focus {
+      color: var(--link-hover);
+      text-decoration: underline;
+    }
+
+    .page {
+      width: min(960px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 38px 0 56px;
+    }
+
+    .site-header {
+      display: grid;
+      grid-template-columns: 210px 1fr;
+      gap: 34px;
+      align-items: start;
+      padding-bottom: 34px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .portrait {
+      width: 210px;
+      aspect-ratio: 1;
+      object-fit: cover;
+      border-radius: 4px;
+      border: 1px solid var(--line);
+      background: var(--wash);
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.2;
+      font-weight: 600;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 6vw, 3.15rem);
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 42px 0 14px;
+      padding-bottom: 7px;
+      border-bottom: 1px solid var(--line);
+      font-size: 1.38rem;
+    }
+
+    h3 {
+      margin: 22px 0 8px;
+      font-size: 1.06rem;
+      color: var(--accent);
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    .role {
+      margin: 0 0 14px;
+      color: var(--muted);
+      font-size: 1.06rem;
+      line-height: 1.45;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      margin-top: 18px;
+      font-size: 0.98rem;
+    }
+
+    .links a {
+      white-space: nowrap;
+    }
+
+    main {
+      max-width: 880px;
+    }
+
+    .research-list,
+    .plain-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .research-list li,
+    .plain-list li {
+      margin: 0 0 15px;
+    }
+
+    .paper-title {
+      font-weight: 600;
+    }
+
+    .authors,
+    .venue,
+    .meta {
+      color: var(--muted);
+    }
+
+    .venue {
+      font-style: italic;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+    }
+
+    .entry {
+      margin-bottom: 16px;
+    }
+
+    .entry strong {
+      display: block;
+      font-weight: 600;
+    }
+
+    .entry .meta {
+      display: block;
+    }
+
+    footer {
+      margin-top: 42px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    @media (max-width: 700px) {
+      .page {
+        width: min(100% - 28px, 960px);
+        padding-top: 24px;
+      }
+
+      .site-header,
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+
+      .portrait {
+        width: min(220px, 70vw);
+      }
+
+      h2 {
+        margin-top: 34px;
+      }
+    }
+  </style>
 </head>
-
 <body>
-    <div class="container">
-        <header class="no-print">
+  <div class="page">
+    <header class="site-header">
+      <img class="portrait" src="turquoise-rozhina.png" alt="Rozhina Ghanavi">
+      <div>
+        <h1>Rozhina Ghanavi</h1>
+        <p class="role">
+          PhD student, MIT and MIT Sloan<br>
+          MIT Presidential Fellow
+        </p>
+        <p>
+          I study questions at the intersection of economics, privacy, AI, education, health, and quantitative marketing.
+          My work uses tools from industrial organization, structural modeling, machine learning, mathematics, and statistics
+          to understand technology markets and social outcomes.
+        </p>
+        <div class="links" aria-label="Profile links">
+          <a href="mailto:rozhinag@mit.edu">Email</a>
+          <a href="https://scholar.google.ca/citations?user=zbrHCycAAAAJ&amp;hl=en">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/rozhina-ghanavi">LinkedIn</a>
+          <a href="https://twitter.com/_ghnn_">Twitter</a>
+        </div>
+      </div>
+    </header>
 
-            <!-- NAV AND LOGO -->
+    <main>
+      <section id="bio" aria-labelledby="bio-heading">
+        <h2 id="bio-heading">Bio</h2>
+        <p>
+          I am a PhD student at MIT Sloan, where I work with
+          <a href="https://mitmgmtfaculty.mit.edu/cetucker/">Catherine Tucker</a>.
+          My current research focuses on the economics of privacy, healthcare, education, and AI.
+        </p>
+        <p>
+          Before my PhD, I was a researcher at the Rotman School of Management and the TD Management Data and Analytics Lab
+          at the University of Toronto, working with
+          <a href="https://www.avigoldfarb.com/">Avi Goldfarb</a> and
+          <a href="http://ryan-webb.com/">Ryan Webb</a>. I also spent time at
+          <a href="https://cohere.ai/">Cohere</a> as a machine learning researcher, where I worked on large
+          representational language models. Earlier research projects include generative models, NLP, MCMC and sampling
+          methods, reinforcement learning, and next-generation wireless communications.
+        </p>
+      </section>
 
-            <div class="row">
-                <nav id="nav-left" class="col-md-4 col-sm-4">
-                    <ul class="dropdown">
-                        <li class="dropbtn1"><a href=index.md>Resume</a>
-                            <ul class="dropdown-content1">
-                                <li><a href="our_story.html">My Story</a></li>
-                       
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
+      <section id="research" aria-labelledby="research-heading">
+        <h2 id="research-heading">Research</h2>
+
+        <h3>Working Papers</h3>
+        <ul class="research-list">
+          <li>
+            <span class="paper-title">Privacy Regulation and AdTech Consolidation</span>
+            <br>
+            <span class="authors">Rozhina Ghanavi, Sepideh Hosseini, and Catherine Tucker</span>
+            <br>
+            <span class="venue">R&amp;R, Management Science</span>
+            <br>
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5374198">SSRN</a>
+          </li>
+          <li>
+            <span class="paper-title">When Does Regulation Redirect Innovation? Evidence from Privacy Laws and EdTech Market</span>
+            <br>
+            <span class="authors">Rozhina Ghanavi and Catherine Tucker</span>
+          </li>
+          <li>
+            <span class="paper-title">Privacy and Targeted Recruitment in Higher Education</span>
+            <br>
+            <span class="authors">Rozhina Ghanavi and Catherine Tucker</span>
+          </li>
+          <li>
+            <span class="paper-title">Communicating Uncertainty Can Increase AI Adoption</span>
+            <br>
+            <span class="authors">Mohsen Foroughifar, Rozhina Ghanavi, Avi Goldfarb, and Ryan Webb</span>
+            <br>
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5468868">SSRN</a>
+          </li>
+        </ul>
+
+        <h3>Other Articles</h3>
+        <ul class="research-list">
+          <li>
+            <span class="paper-title">Synthetic Data, Network Effects and the Future of Competition</span>
+            <br>
+            <span class="authors">Rozhina Ghanavi and Catherine Tucker</span>
+            <br>
+            <span class="venue">Competition Policy International</span>
+            <br>
+            <a href="https://t.co/fqr0yyeuju">Article</a>
+          </li>
+        </ul>
+
+        <h3>Computer Science Publications</h3>
+        <ul class="research-list">
+          <li>
+            <span class="paper-title">Generative Adversarial Imputation for Classification Network</span>
+            <br>
+            <span class="authors">Rozhina Ghanavi, Ben Liang, and Ali Tizghadam</span>
+            <br>
+            <span class="venue">GLOBECOM 2021</span>
+            <br>
+            <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8377340">IEEE</a>
+          </li>
+          <li>
+            <span class="paper-title">Q-learning Based Aerial Base Station Placement for Fairness Enhancement in Mobile Networks</span>
+            <br>
+            <span class="authors">Rozhina Ghanavi, Maryam Sabbaghian, and Halim Yanikomeroglu</span>
+            <br>
+            <span class="venue">GlobalSIP 2019</span>
+            <br>
+            <a href="https://arxiv.org/abs/1909.08093">arXiv</a>
+          </li>
+          <li>
+            <span class="paper-title">Efficient 3D Aerial Base Station Placement Considering Users Mobility by Reinforcement Learning</span>
+            <br>
+            <span class="authors">Rozhina Ghanavi, Elham Kalantari, Maryam Sabbaghian, Halim Yanikomeroglu, and Abbas Yongacoglu</span>
+            <br>
+            <span class="venue">WCNC 2018</span>
+            <br>
+            <a href="https://ieeexplore.ieee.org/abstract/document/8377340">IEEE</a>
+          </li>
+          <li>
+            <span class="paper-title">Autism Screening Using an Intelligent Toy Car</span>
+            <br>
+            <span class="authors">Hadi Moradi, Sorour E. Amiri, Rozhina Ghanavi, Babak Nadjar Aarabi, and Hamid-Reaza Pouretemad</span>
+            <br>
+            <span class="venue">UCAmI 2017</span>
+            <br>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-319-67585-5_79">Springer</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="background" aria-labelledby="background-heading">
+        <h2 id="background-heading">Background</h2>
+        <div class="two-column">
+          <div>
+            <h3>Education</h3>
+            <div class="entry">
+              <strong>PhD in Management Research</strong>
+              <span class="meta">MIT, 2024-present</span>
             </div>
-        </header>
-
-
-        <!-- MAIN SECTION -->
-
-        <main id="homepage">
-
-            <!-- BEGIN LEFT SECTION WITH PICTURE, EVENTS -->
-
-            <div class="row">
-
+            <div class="entry">
+              <strong>MS in Electrical and Computer Engineering</strong>
+              <span class="meta">University of Toronto, 2018-2020</span>
             </div>
-            <!-- END ROW-->
-        </main>
-
-        <!-- DESKTOP AND TABLET FOOTER -->
-
-        <footer>
-            <div class="row">
+            <div class="entry">
+              <strong>BS in Electrical Engineering, Telecommunications</strong>
+              <span class="meta">University of Tehran, 2013-2018</span>
             </div>
+          </div>
+          <div>
+            <h3>Experience</h3>
+            <div class="entry">
+              <strong>Research Associate</strong>
+              <span class="meta">Rotman School of Management, University of Toronto, 2022-2024</span>
+            </div>
+            <div class="entry">
+              <strong>Machine Learning Researcher</strong>
+              <span class="meta">Cohere, 2021-2022</span>
+            </div>
+            <div class="entry">
+              <strong>Research Intern</strong>
+              <span class="meta">Vector Institute, 2020-2021</span>
+            </div>
+            <div class="entry">
+              <strong>Research Intern</strong>
+              <span class="meta">Carleton University, 2017</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        </footer>
+      <section id="interests" aria-labelledby="interests-heading">
+        <h2 id="interests-heading">Interests</h2>
+        <ul class="plain-list">
+          <li>Economics of AI, responsible AI, AI for social good, industrial organization, and quantitative marketing.</li>
+          <li>Technical tools: structural models, statistical learning, deep learning, generative models, reinforcement learning, NLP, Python, PyTorch, TensorFlow, MATLAB, and C.</li>
+        </ul>
+      </section>
+    </main>
 
-    </div>
-    <!-- end page container -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <footer>
+      Last updated 2026.
+    </footer>
+  </div>
 </body>
-<script>
-    $(document).ready(function () {
-        $('#mobile-footer-trigger').click(function () {
-            $('#footer-nav').fadeToggle(1000);
-            $('#social-icons').fadeToggle(1000);
-        })
-
-    });
-</script>
-
 </html>
