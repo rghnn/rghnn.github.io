@@ -1,42 +1,379 @@
----
-title: Rozhina Ghanavi
-layout: jekyll-theme-midnight
-filename: index.md
---- 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rozhina Ghanavi, PhD student at MIT Sloan working on economics of privacy, AI, education, health, and quantitative marketing.">
+  <title>Rozhina Ghanavi</title>
+  <style>
+    :root {
+      --ink: #202124;
+      --muted: #5f6368;
+      --line: #dfe3e8;
+      --link: #1f5f8b;
+      --link-hover: #123f5c;
+      --paper: #ffffff;
+      --wash: #f6f8fa;
+      --accent: #b84a3a;
+    }
 
-# Rozhina Ghanavi
+    * {
+      box-sizing: border-box;
+    }
 
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      line-height: 1.58;
+    }
 
-- I am a PhD student at MIT and MIT Sloan.<br/>
-- My most recent research focuses on the Economics of Privacy, Healthcare, and Education.
-- I am an MIT Presidential Fellow 2024.<br/> 
-- I like to call myself a scientist! A quantitative one<br/> 
-- I have broad science interests and have spent some time exploring them. Now, I am passionate about Industrial Organization, the Economics of privacy, education, health, AI and quantitative Marketing. I like using structural models, machine learning, maths, and statistics tools to solve problems in social sciences. <br/>
-- At MIT, I am fortunate to be working on so many exciting questions with [Catherine Tucker](https://mitmgmtfaculty.mit.edu/cetucker/) 
-- Before my PhD, I spent some time at Rotman School of Management, University of Toronto, working with brilliant professors and researchers like [Avi Goldfarb](https://www.avigoldfarb.com/) and [Ryan Webb](http://ryan-webb.com/). <br/> We focus on how to use uncertainty to improve AI adoption in home-sharing platforms.
-- I have done research works in generative models, natural language processing (NLP), MCMC and sampling methods, and reinforcement learning. In another life, I was working on the next generation of telecommunication approaches (5G at the time). <br/>
-- I am interested in impactful research and projects. <br/>
-- If you have similar interests and have a project that I can help with or collaborate on, do not hesitate to contact me via email or DM on [Twitter](https://twitter.com/_ghnn_). (rozhina dot ghanavi at rotman dot utoronto dot ca). <br/>
-- Not all of my research works are published, but the few of them that are published can be found here on my [scholar page](https://scholar.google.ca/citations?user=zbrHCycAAAAJ&hl=en)<br/>
-- Previously I was a researcher at [TDMDAL](https://www.rotman.utoronto.ca/FacultyAndResearch/EducationCentres/TDMDAL), Finhub, and [Rotman school of Management](https://www.rotman.utoronto.ca/).
-- I spent some time at [Cohere](https://cohere.ai/) as a machine learning researcher, where I trained large representational language models.<br/> 
-- I got my Masters from the University of Toronto in 2021, where I was advised by Professor [Ben Liang](https://www.comm.utoronto.ca/~liang/). I did research under supervision of [Alireza Makhzani](http://www.alireza.ai/) at [Vector Institute](https://vectorinstitute.ai/).<br/>
-- I did my undergraduate studies at the University of Tehran. I was advised by amazing [Maryam Sabbaghian](https://scholar.google.com/citations?user=fCts8c0AAAAJ&hl=en).
-- I did an internship at Carleton University, and I was privileged to work with [Halim Yanikomeroglu](https://www.sce.carleton.ca/faculty/yanikomeroglu.html)
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
 
-### Social Media
-- [LinkedIn](https://www.linkedin.com/in/rozhina-ghanavi) <br/>
-- [twitter](https://twitter.com/_ghnn_)
+    a:hover,
+    a:focus {
+      color: var(--link-hover);
+      text-decoration: underline;
+    }
 
-### Education 
-- PhD, Massachusetts Institute of Technology (MIT)
-- Master of Sciences, University of Toronto
-- Bachelor of Sciences, University of Tehran 
+    .page {
+      width: min(960px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 38px 0 56px;
+    }
 
-### Professional Experience
-- Past
-  - Researcher at [TDMDAL](https://www.rotman.utoronto.ca/FacultyAndResearch/EducationCentres/TDMDAL), Finhub, and [Rotman school of Management](https://www.rotman.utoronto.ca/)
-  - Machine Learning Researcher at [Cohere](https://cohere.ai/)
-  - Machine Learning Research Associate at [Vector Institute](https://vectorinstitute.ai/) working with [Alireza Makhzani](http://www.alireza.ai/)
-  - Research Intern	at Carleton University
+    .site-header {
+      display: grid;
+      grid-template-columns: 210px 1fr;
+      gap: 34px;
+      align-items: start;
+      padding-bottom: 34px;
+      border-bottom: 1px solid var(--line);
+    }
 
+    .portrait {
+      width: 210px;
+      aspect-ratio: 1;
+      object-fit: cover;
+      border-radius: 4px;
+      border: 1px solid var(--line);
+      background: var(--wash);
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.2;
+      font-weight: 600;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 6vw, 3.15rem);
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 42px 0 14px;
+      padding-bottom: 7px;
+      border-bottom: 1px solid var(--line);
+      font-size: 1.38rem;
+    }
+
+    h3 {
+      margin: 22px 0 8px;
+      font-size: 1.06rem;
+      color: var(--accent);
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    .role {
+      margin: 0 0 14px;
+      color: var(--muted);
+      font-size: 1.06rem;
+      line-height: 1.45;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      margin-top: 18px;
+      font-size: 0.98rem;
+    }
+
+    .links a {
+      white-space: nowrap;
+    }
+
+    main {
+      max-width: 880px;
+    }
+
+    .research-list,
+    .plain-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .research-list li,
+    .plain-list li {
+      margin: 0 0 15px;
+    }
+
+    .paper-title {
+      font-weight: 600;
+    }
+
+    .authors,
+    .venue,
+    .meta {
+      color: var(--muted);
+    }
+
+    .venue {
+      font-style: italic;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+    }
+
+    .entry {
+      margin-bottom: 16px;
+    }
+
+    .entry strong {
+      display: block;
+      font-weight: 600;
+    }
+
+    .entry .meta {
+      display: block;
+    }
+
+    footer {
+      margin-top: 42px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    @media (max-width: 700px) {
+      .page {
+        width: min(100% - 28px, 960px);
+        padding-top: 24px;
+      }
+
+      .site-header,
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+
+      .portrait {
+        width: min(220px, 70vw);
+      }
+
+      h2 {
+        margin-top: 34px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <img class="portrait" src="turquoise-rozhina.png" alt="Rozhina Ghanavi">
+      <div>
+        <h1>Rozhina Ghanavi</h1>
+        <p class="role">
+          PhD student, MIT and MIT Sloan<br>
+          MIT Presidential Fellow
+        </p>
+        <p>
+          I study questions at the intersection of Quantitative Marketing, Economics of Data and Competition, and Industrial Organization.
+          My work uses tools from structural modeling, econometrics, machine learning, and statistics
+          to understand technology markets and social outcomes.
+        </p>
+        <div class="links" aria-label="Profile links">
+          <a href="mailto:rozhinag@mit.edu">Email</a>
+          <a href="https://scholar.google.ca/citations?user=zbrHCycAAAAJ&amp;hl=en">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/rozhina-ghanavi">LinkedIn</a>
+          <a href="https://twitter.com/_ghnn_">Twitter</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="bio" aria-labelledby="bio-heading">
+        <h2 id="bio-heading">Bio</h2>
+        <p>
+          I am a PhD student at MIT Sloan, where I work with
+          <a href="https://mitmgmtfaculty.mit.edu/cetucker/">Catherine Tucker</a>.
+          My current research focuses on the economics of privacy, healthcare, education, and AI.
+        </p>
+        <p>
+          Before my PhD, I was a researcher at the Rotman School of Management and the TD Management Data and Analytics Lab
+          at the University of Toronto, working with
+          <a href="https://www.avigoldfarb.com/">Avi Goldfarb</a> and
+          <a href="http://ryan-webb.com/">Ryan Webb</a>. I also spent time at
+          <a href="https://cohere.ai/">Cohere</a> as a machine learning researcher, where I worked on large
+          representational language models. Earlier research projects include generative models, NLP, MCMC and sampling
+          methods, reinforcement learning, and next-generation wireless communications.
+        </p>
+      </section>
+
+      <section id="research" aria-labelledby="research-heading">
+        <h2 id="research-heading">Research</h2>
+
+        <h3>Working Papers</h3>
+        <ul class="research-list">
+          <li>
+            <span class="paper-title">Privacy Regulation and AdTech Consolidation</span>
+            <br>
+            <span class="authors">Rozhina Ghanavi, Sepideh Hosseini, and Catherine Tucker</span>
+            <br>
+            <span class="venue">R&amp;R, Management Science</span>
+            <br>
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5374198">SSRN</a>
+          </li>
+          <li>
+            <span class="paper-title">When Does Regulation Redirect Innovation? Evidence from Privacy Laws and EdTech Market</span>
+            <br>
+            <span class="authors">Rozhina Ghanavi and Catherine Tucker</span>
+          </li>
+          <li>
+            <span class="paper-title">Privacy and Targeted Recruitment in Higher Education</span>
+            <br>
+            <span class="authors">Rozhina Ghanavi and Catherine Tucker</span>
+          </li>
+          <li>
+            <span class="paper-title">Communicating Uncertainty Can Increase AI Adoption</span>
+            <br>
+            <span class="authors">Mohsen Foroughifar, Rozhina Ghanavi, Avi Goldfarb, and Ryan Webb</span>
+            <br>
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5468868">SSRN</a>
+          </li>
+        </ul>
+
+        <h3>Other Articles</h3>
+        <ul class="research-list">
+          <li>
+            <span class="paper-title">Synthetic Data, Network Effects and the Future of Competition</span>
+            <br>
+            <span class="authors">Rozhina Ghanavi and Catherine Tucker</span>
+            <br>
+            <span class="venue">Competition Policy International</span>
+            <br>
+            <a href="https://t.co/fqr0yyeuju">Article</a>
+          </li>
+        </ul>
+
+        <h3>Computer Science Publications</h3>
+        <ul class="research-list">
+          <li>
+            <span class="paper-title">Generative Adversarial Imputation for Classification Network</span>
+            <br>
+            <span class="authors">Rozhina Ghanavi, Ben Liang, and Ali Tizghadam</span>
+            <br>
+            <span class="venue">GLOBECOM 2021</span>
+            <br>
+            <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8377340">IEEE</a>
+          </li>
+          <li>
+            <span class="paper-title">Q-learning Based Aerial Base Station Placement for Fairness Enhancement in Mobile Networks</span>
+            <br>
+            <span class="authors">Rozhina Ghanavi, Maryam Sabbaghian, and Halim Yanikomeroglu</span>
+            <br>
+            <span class="venue">GlobalSIP 2019</span>
+            <br>
+            <a href="https://arxiv.org/abs/1909.08093">arXiv</a>
+          </li>
+          <li>
+            <span class="paper-title">Efficient 3D Aerial Base Station Placement Considering Users Mobility by Reinforcement Learning</span>
+            <br>
+            <span class="authors">Rozhina Ghanavi, Elham Kalantari, Maryam Sabbaghian, Halim Yanikomeroglu, and Abbas Yongacoglu</span>
+            <br>
+            <span class="venue">WCNC 2018</span>
+            <br>
+            <a href="https://ieeexplore.ieee.org/abstract/document/8377340">IEEE</a>
+          </li>
+          <li>
+            <span class="paper-title">Autism Screening Using an Intelligent Toy Car</span>
+            <br>
+            <span class="authors">Hadi Moradi, Sorour E. Amiri, Rozhina Ghanavi, Babak Nadjar Aarabi, and Hamid-Reaza Pouretemad</span>
+            <br>
+            <span class="venue">UCAmI 2017</span>
+            <br>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-319-67585-5_79">Springer</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="background" aria-labelledby="background-heading">
+        <h2 id="background-heading">Background</h2>
+        <div class="two-column">
+          <div>
+            <h3>Education</h3>
+            <div class="entry">
+              <strong>PhD in Management Research</strong>
+              <span class="meta">MIT, 2024-present</span>
+            </div>
+            <div class="entry">
+              <strong>MS in Electrical and Computer Engineering</strong>
+              <span class="meta">University of Toronto, 2018-2020</span>
+            </div>
+            <div class="entry">
+              <strong>BS in Electrical Engineering, Telecommunications</strong>
+              <span class="meta">University of Tehran, 2013-2018</span>
+            </div>
+          </div>
+          <div>
+            <h3>Experience</h3>
+            <div class="entry">
+              <strong>Research Associate</strong>
+              <span class="meta">Rotman School of Management, University of Toronto, 2022-2024</span>
+            </div>
+            <div class="entry">
+              <strong>Machine Learning Researcher</strong>
+              <span class="meta">Cohere, 2021-2022</span>
+            </div>
+            <div class="entry">
+              <strong>Research Intern</strong>
+              <span class="meta">Vector Institute, 2020-2021</span>
+            </div>
+            <div class="entry">
+              <strong>Research Intern</strong>
+              <span class="meta">Carleton University, 2017</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="interests" aria-labelledby="interests-heading">
+        <h2 id="interests-heading">Interests</h2>
+        <ul class="plain-list">
+          <li>Economics of AI, responsible AI, AI for social good, industrial organization, and quantitative marketing.</li>
+          <li>Technical tools: structural models, statistical learning, deep learning, generative models, reinforcement learning, NLP, Python, PyTorch, TensorFlow, MATLAB, and C.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      Last updated 2026.
+    </footer>
+  </div>
+</body>
+</html>
